@@ -1,0 +1,24 @@
+git status
+git init
+git add . 
+git commit -m "MESSAGE COMES HERE"
+git remote add origin URL
+git push origin main
+git remote -v
+git remote add upstream URL (of original project)
+git pull upstream main
+git branch temp
+git checkout temp (make changes here)
+<edit contributors page>
+git push origin temp -f
+<create pull request from your account to the main project> 
+
+open source
+git add remote add upstream ""
+git pull upstream main
+
+<delete some commit>
+git reset (hash code)
+git stash (chup jayega back stage mei)
+git stash pop (bhar ajayega)
+git stash clear (delete ho jayega)
