@@ -1,6 +1,9 @@
 git status
 git init
 git add . 
+git log
+git log --oneline
+git diff [source branch] [target branch]
 git commit -m "MESSAGE COMES HERE"
 git remote add origin URL
 git push origin main
